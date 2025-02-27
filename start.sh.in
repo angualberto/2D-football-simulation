@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Set the path to the executable
+EXECUTABLE=@CMAKE_BINARY_DIR@/sample_trainer
+
+# Run the executable
+$EXECUTABLE

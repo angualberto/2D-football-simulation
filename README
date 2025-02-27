@@ -1,0 +1,96 @@
+=======
+�Ϥ����
+=======
+agent2d��librcsc����Ѥ�������ץ�ʥ�����μ�����Ǥ���RoboCup Soccer
+Simulator(rcssserver)�С������14��ư����뤳�Ȥ����ꤷ�Ƥ��ޤ���
+
+- RoboCup Soccer Simulator Homepage: http://sserver.sf.net/
+- RoboCup Official Homepage: http://www.robocup.org/
+
+- librcsc Homepage: http://rctools.sourceforge.jp/
+
+==========
+REFERENCES
+==========
+��ʸ���Ǥλ�����Ȥ��Ƥϰʲ������Ѥ���������
+
+Hidehisa Akiyama, Tomoharu Nakashima, HELIOS Base: An Open Source
+Package for the RoboCup Soccer 2D Simulation, In Sven Behnke, Manuela
+Veloso, Arnoud Visser, and Rong Xiong editors, RoboCup2013: Robot
+World XVII, Lecture Notes in Artificial Intelligence, Springer Verlag,
+Berlin, 2014.
+
+@inbook{akiyama2014,
+  author="Hidehisa AKIYAMA and Tomoharu NAKASHIMA",
+  editor="Sven Behnke and Manuela Veloso and Arnoud Visser and Rong Xiong",
+  title="HELIOS Base: An Open Source Package for the RoboCup Soccer 2D Simulation",
+  booktitle="RoboCup 2013: Robot World Cup XVII",
+  series="Lecture Notes in Artificial Intelligence",
+  year="2014",
+  publisher="Springer",
+  address="Berlin",
+  pages="528--535",
+  isbn="978-3-662-44468-9",
+  doi="10.1007/978-3-662-44468-9_46",
+  url="http://dx.doi.org/10.1007/978-3-662-44468-9_46"
+}
+
+============
+�׵�饤�֥��
+============
+agent2d-3.1.0 �ϰʲ��Υ饤�֥����׵ᤷ�ޤ���
+
+ - boost-1.32 or later
+ - librcsc-4.0.x
+
+==========
+INSTALLATION
+==========
+To install the voronoi_library, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/chr1shr/voro.git
+   ```
+
+2. Navigate to the cloned directory:
+   ```
+   cd voro
+   ```
+
+3. Build and install the library:
+   ```
+   make
+   sudo make install
+   ```
+
+=====
+�ӥ��
+=====
+�ѥå�������Ÿ�������ǥ��쥯�ȥ������ǰʲ��Υ��ޥ�ɤ�¹Ԥ��ޤ�:
+
+./configure
+make
+
+librcsc�򥷥��ƥ�Υǥ��쥯�ȥ�˥��󥹥ȡ��뤷�Ƥ��ʤ���硤�ʲ��Τ�
+����configure��'--with-librcsc'���ץ����ˤ�ä�librcsc�Υ��󥹥ȡ���
+�ѥ�����ꤷ�ʤ���Фʤ�ޤ���
+
+./configure --with-librcsc=/path/to/librcsc/prefix
+
+���ξ�硤�Ķ��ѿ� LD_LIBRARY_PATH �����ꤹ��ɬ�פ����뤫�⤷��ޤ���
+
+=================
+���󥹥ȡ����������
+=================
+agent2d��ӥ�ɤ������ˡ��ѥå������˴ޤޤ��configure������ץȤΥ���
+�����ˤ�ä�������ѹ����뤳�Ȥ��Ǥ��ޤ���configure�ǻ���Ǥ��륪��
+�����ξܺ٤ϡ�'configure --help'��¹Ԥ��뤳�Ȥǻ��ȤǤ��ޤ���
+
+==========
+������ε�ư
+==========
+agent2d�Υ������ư����ˤϡ�src�ǥ��쥯�ȥ���ǰʲ��Υ��ޥ�ɤ򥿥�
+�פ��ޤ���
+
+`./start.sh'
