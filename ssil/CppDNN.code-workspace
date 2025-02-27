@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../CppDNN"
+		},
+		{
+			"path": "../librcsc"
+		},
+		{
+			"path": "../m4"
+		},
+		{
+			"path": "../scripts"
+		},
+		{
+			"path": "../src"
+		},
+		{
+			"path": "."
+		}
+	]
+}
