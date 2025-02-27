@@ -1,0 +1,24 @@
+camera:
+  width: 640
+  height: 480
+  fps: 30
+  device_id: 0
+
+players:
+  max_players: 11
+  player_radius: 0.5
+  player_speed: 1.5
+
+strategy:
+  passing_distance: 10.0
+  positioning_tolerance: 0.5
+  triangulation_enabled: true
+  optimization_iterations: 100
+
+object_detection:
+  ball_color: 
+    lower: [0, 100, 100]
+    upper: [10, 255, 255]
+  goal_color: 
+    lower: [30, 100, 100]
+    upper: [90, 255, 255]

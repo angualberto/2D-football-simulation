@@ -1,0 +1,3 @@
+/usr/local/include/CppDNN/DeepNueralNetwork.h
+/usr/local/include/CppDNN/Function.h
+/usr/local/include/CppDNN/Layer.h
